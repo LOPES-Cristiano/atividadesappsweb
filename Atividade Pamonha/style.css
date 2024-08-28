@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #feece0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.secao-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faeae1;
+    height: 50vh;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid #9b6647;
+    gap: 200px;
+}
+
+.imagem-pamonha {
+    max-width: 700px;
+    height: auto;
+}
+
+.titulos h1 {
+    color: #7f4b3d;
+    font-size: 40px; /* aproximadamente 2.5rem */
+}
+
+.titulos h2 {
+    color: #9b6647;
+    font-size: 28.8px; /* aproximadamente 1.8rem */
+    margin-top: 8px; /* 10px */
+}
+
+.titulos h3 {
+    color: #9b6647;
+    font-size: 19.2px; /* aproximadamente 1.2rem */
+    margin-top: 8px; /* 10px */
+}
+
+.secao-inferior {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #9b6647;
+    height: 50vh;
+    width: 100%; 
+    padding: 20px;
+}
+
+.conteudo-secao {
+    display: flex;
+    justify-content: space-around; 
+    width: 60%; 
+}
+
+.ingredientes, .modo-preparo {
+    width: 45%;
+    color: white;
+}
+
+.ingredientes h3, .modo-preparo h3 {
+    font-size: 28.8px; /* aproximadamente 1.8rem */
+    margin-bottom: 8px; /* 10px */
+}
+
+.ingredientes ul, .modo-preparo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredientes li, .modo-preparo li {
+    font-size: 19.2px; /* aproximadamente 1.2rem */
+    margin-bottom: 8px; /* 10px */
+}
